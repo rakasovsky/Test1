@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-unitcity">
+        <section class="unit_top_wrapper">
+            <div class="hero">
+                <div class="hero_icons">
+                    <img src="./img/icons/1_1.png" class="hero_icon" alt="">
+                    <img src="./img/icons/2_1.png" class="hero_icon" alt="">
+                    <img src="./img/icons/3_1.png" class="hero_icon" alt="">
+                    <img src="./img/icons/4_1.png" class="hero_icon" alt="">
+                </div>
+                <img src="./img/unit.svg"  alt="" class="u_logo">
+                <h2>Разработка фирменного стиля для брокерской компании</h2>
+                <div class="hero_links">
+                    <img src="./img/hero/pdf.svg"  alt="">
+                    <img src="./img/hero/pp.svg"  alt="">
+                </div>
+            </div>        
+        </section>
+       
+         <!-- Кейс  -->
+        <div class="container">
+            <div class="breadcrumbs">
+            <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a href="https://imaris.ua/" itemprop="url"><span itemprop="title">Главная</span></a>
+            </span>
+                    <span class="divider">/</span>
+                    <span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+              <a href="https://imaris.ua/portfolio/" itemprop="url"><span itemprop="title">Кейсы</span></a>
+            </span>
+                    <span class="divider">/</span>
+    
+                <span class="grey"><?php echo $block_2['title_project']; ?></span>
+                </div>
+                <div class="description">
+                    <div class="description-title">Проект:</div>
+                    <p><?php echo $block_2['title_project']; ?></p>
+                    <div class="description-title">Услуги:</div>
+                    <?php
+                    $services_array = $block_2['services'];
+                    foreach ($services_array as $service){ ?>
+                    <a href="<?php echo $service['link']; ?>" class="description-service"><?php echo $service['text']; ?></a>
+                    <?php } ?>
+                    <div class="description-title">Регион:</div>
+                    <p><?php echo $block_2['region']; ?></p>
+                    <div class="description-title">Период:</div>
+                    <p><?php echo $block_2['period']; ?></p>
+                </div>
+        </div>
+    
+        <!-- О проекте -->
+        <section class="project">
+            <img src="./img/hero/yellow_s.svg" alt="" class="yellow_stripe">
+            <div class="container">
+                 <div class="about_project">
+                    <h3 class="pgs">О проекте</h3>
+                    <p class="pgs">UNIT.Kharkiv создает инновационную среду для развития харьковского комьюнити инноваторов, IT и креативного предпринимательства, превращая город в ведущий инновационный центр Украины.</p>
+                 </div>
+                 <div class="tasks">
+                    <h3 class="pgs">Задачи</h3>
+                    <ul>
+                        <li class="pgs">Привлечение новых арендаторов</li>
+                        <li class="pgs">Отправка по электронной почте и другим способам коммуникации</li>
+                    </ul>
+                 </div>
+                 <div class="process">
+                     <h3 class="pgs">Процесс работы</h3>
+                     <ol>
+                         <li class="pgs">Провели анализ рынка и конкурентов</li>
+                         <li class="pgs">Разработали стильную концепцию дизайна презентации с уникальными шрифтами конкретно под данный проект</li>
+                         <li class="pgs">Отрисовали иконки, графические элементы для презентации</li>
+                         <li class="pgs">Утвердили вариант концепции с клиентом и сверстали остальные слайды</li>
+                         <li class="pgs">Анимировали элементы на каждом слайде</li>
+                         <li class="pgs">Отправили клиенту финальную версию презентации в формате pptx</li>
+                     </ol>
+                 </div>
+            </div>
+        </section>
+    
+        <!-- Варианты -->
+        <section class="variants">
+            <div class="variants_wrapper container">
+                <div class="variants_left">
+                    <div class="variant_text">
+                        <img src="./img/variants/vv.png" alt="" class="var vrsg desk">
+                        <img src="./img/variants/vvm.png" alt="" class="var vrsg mobile variant">
+                        <img src="./img/variants/vubor.png" alt="" class="vrsg desk">
+                        <img src="./img/variants/vuborm.png" alt="" class="vrsg mobile vubor">
+                    </div>
+                    <img src="./img/variants/leftmac.png" alt="" class="mac desk">
+                    <img src="./img/variants/leftm.png" alt="" class="mac mobile">
+                </div>
+                <div class="variants_right">
+                    <img src="./img/variants/rightmac.png" alt="" class="mac2 desk">
+                    <img src="./img/variants/rightm.png" alt="" class="mac2 mobile">
+                    <img src="./img/variants/style.svg" alt="" class="vrsg2 desk">
+                    <img src="./img/variants/stylem.png" alt="" class="vrsg2 mobile stylet">      
+                </div>
+            </div>
+        </section>
+        <!-- Стилистика -->
+        <section class="style">
+           <div class="style_wrapper">
+               <div class="style_left">
+                 <img src="./img/style/rec_top.svg" alt="" class="var lineg">
+                 <img src="./img/style/rec_bot.svg" alt="" class="var lineg">
+                 <img src="./img/style/rec_black.png" alt="" class="var rec1g">             
+               </div>
+               <div class="style_center container">
+                  <img src="./img/style/presentation1.png" alt="" class="pre1g desk">
+                  <img src="./img/style/test1.svg" alt="" class="pre1g mobile">
+                  <img src="./img/style/Frame.svg" alt="" class="var circleg">   
+               </div>
+               <div class="style_right">
+                   
+               </div>
+           </div>             
+        </section>
+        <!-- Почему мы -->
+        <section class="whywe"> 
+            <div class="whywe_wrapper">
+                <div class="whywe_left">
+                    <img src="./img/whywe/fr.svg" alt="">
+                    <img src="./img/whywe/5.png" alt="">
+                </div>
+                <div class="whywe_center container">
+                    <img src="./img/whywe/whywe.png" alt="" class="wwg">
+                    <img src="./img/whywe/presentation2.png" alt="" class="pre2g">
+                    <!-- <img src="./img/whywe/2.png" alt=""> -->
+                </div>
+                <div class="whywe_right">
+                    <img src="./img/whywe/rec.png" alt="" class="rec2g">
+                </div>
+            </div>
+        </section>
+        <!-- Возможности -->
+         <section class='posability'>
+             <div class="posability_wrapper">
+                 <div class="posability_left">
+                   
+                 </div>
+                 <div class="posability_center container">
+                    <img src="./img/posability/posability.png" alt="" class="pos1g">
+                    <img src="./img/posability/chair.png" alt="" class="ch1g">
+                    <img src="./img/posability/presentation3.png" alt="" class="pre3g">
+                 </div>
+                 <div class="posability_right">
+                    <img src="./img/posability/6.png" alt="">
+                    <!-- <img src="./img/posability/n.png" alt="" class="n"> -->
+                 </div>
+             </div>
+             <div class="posability_bottom">
+                    <div class="icons_wrapper container">
+                        <img src="./img/posability/icons/1.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/2.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/3.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/4.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/6.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/7.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/8.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/9.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/10.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/11.png" alt="" class="icons2">
+                        <img src="./img/posability/icons/12.png" alt="" class="icons2">
+                    </div>
+                    <img src="./img/posability/rec.png" alt="" class="rec rec3g">
+                 </div>
+         </section>
+    
+         <section class="fix">
+                 <!-- Экосистема -->
+                <section class="eco">
+                    <div class="eco_wrapper">
+                        <div class="eco_left">
+                            <img src="./img/ecosystem/rect.png" alt="">
+                        </div>
+                        <div class="eco_center container">
+                                <img src="./img/ecosystem/eco.png" alt="" class="ecog">
+                                <img src="./img/ecosystem/gradient.png" alt="" class="sun">
+                                <img src="./img/ecosystem/presentation4.png" alt="" class="pre4g">
+                        </div>
+                        <div class="eco_right">
+                        <img src="./img/ecosystem/map.png" alt="">
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Офисные пространства -->
+                <section class="office">
+                    <div class="office_wrapper">
+                    <div class="top">
+                            <div class="center container">
+                                <img src="./img/office/lamp.png" alt="" class="lampg">
+                                <img src="./img/office/light.png" alt="" class="lightg">
+                                <img src="./img/office/office.png" alt="" class="officeg">
+                                <img src="./img/office/presentation5.png" alt="" class="pre5g">
+                            </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="container">
+                                <div class="number">
+                                    <img src="./img/office/5.png" alt="">
+                                </div>
+                                <img src="./img/office/chair.png" alt="" class="chair2g">
+                                <img src="./img/office/n.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+                </section>
+                     <!-- Мы можем -->
+                    <section class="wecan">
+                        <img src="./img/wecan/cush.png" alt="" class="we_cush">
+                        <div class="wecan_wrapper">
+                        <!-- <img src="./img/wecan/cush.png" alt="" class="we_cush"> -->
+                        <img src="./img/wecan/rect.png" alt="" class="we_rect">
+                        <div class="wecan_center container">
+                                <img src="./img/wecan/presentation6.png" alt="" class="pre6g">
+                        </div>
+                        </div>
+                    </section>
+         </section>
+         <!-- Видео  -->
+         <!-- <iframe src="https://player.vimeo.com/video/530263322?muted=1&?autoplay=1&loop=1" width="1920" height="1080"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> -->
+        <video class="bg-container mp4 desktop" playsinline autoplay loop muted>
+                <source src="./video/unitcity.mp4" type="video/mp4"> 
+        </video>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+        <script src="js/unit.js"></script>
+</body>
+</html>
