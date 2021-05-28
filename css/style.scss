@@ -922,12 +922,12 @@ video {
   .main-unitcity .container{
       width: 375px;
   }  
-  .main-unitcity .mobile  {
-      display: block;
-  }
-    .desk  {
-        display: none;
-    }
+//   .main-unitcity .mobile  {
+//       display: block;
+//   }
+    // .desk  {
+    //     display: none;
+    // }
     .u_logo{
         max-width: 280px;
     }
@@ -978,5 +978,46 @@ video {
     .variants_wrapper .variants_right .stylet{
         transform: translate(-35px, -10px)!important;
         width: 155px;
+    }
+    .variants .variants_wrapper .variants_right img:last-child{
+        transform: translate(-35px, 0px);
+    }
+    .style {
+        height: 340px;
+    }
+    .style .style_wrapper .style_center {
+        margin-top: 108px;
+    }.style .style_wrapper .style_center:after {
+        content: '';
+        background: url(../img/style/Planet.png);
+        height: 240px;
+        width: 240px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: -27%;
+        top: -20%;
+        z-index: -1;
+    }
+    .style .style_wrapper .style_center .var {
+        right: 5%;
+        width: 47px;
+    }
+    .style .style_wrapper .style_left img:nth-child(2) {
+        transform: translate(-15px, 50px);
+    }
+    .style .style_wrapper .style_left img:first-child {
+        transform: translate(20px, 70px);
+        width: 90%;
+    }
+    .wwg {
+        width: 116px;
+    }
+    .whywe {
+        height: 315px;
+        margin-top: 0px;
+    }
+    .whywe .whywe_wrapper .whywe_center img:nth-child(2){
+
     }
 }
