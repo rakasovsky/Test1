@@ -405,6 +405,9 @@
             width: 50%;
             align-items: center;
             z-index: 22;
+            img {
+                transform: translateY(-3px);
+            }
         }
         .eco_left::before{
             content: url("../img/ecosystem/4.png");
@@ -1236,7 +1239,7 @@ video {
         top: -25%;
     }
     .whywe .whywe_wrapper .whywe_center img:nth-child(2) {
-        transform: translate(-12px, 0px);
+        transform: translate(-11px, 0px);
         width: 350px;
         height: 220px;
     }
@@ -1276,7 +1279,7 @@ video {
         top: -135%;
     }
     .posability .posability_wrapper .posability_center img:nth-child(3) {
-        transform: translate(-52px, 55px);
+        transform: translate(-54px, 55px);
         opacity: 1;
         width: 350px;
         height: 220px;
@@ -1294,6 +1297,7 @@ video {
     .eco .eco_wrapper .eco_center img:last-child {
         width: 350px;
         height: 220px;
+        transform: translate(-10px, 0px);
     }
     .eco .eco_wrapper .eco_left img {
         height: 32px;
@@ -1302,7 +1306,7 @@ video {
     .eco .eco_wrapper .eco_left::before {
         height: 80px;
         width: 58px;
-        left: 9%;
+        left: 2%;
         bottom: -35px;
     }
     .eco .eco_wrapper .eco_right img {
@@ -1354,8 +1358,12 @@ video {
         bottom: -13%;
         z-index: 4;
     }
+    .office .office_wrapper .bottom .container img:nth-child(3) {
+        bottom: 35%;
+        height: 32px;
+    }
     .wecan .wecan_wrapper .wecan_center img {
-        transform: translate(-57px, 0px);
+        transform: translate(-56px, 0px);
         width: 350px;
         height: 220px;
     }
@@ -1457,7 +1465,8 @@ video {
         margin-top: -10px;
     }
     .eco .eco_wrapper .eco_center img:last-child {
-        width: 330px;
+        width: 310px;
+        transform: translate(-11px, 0px);
         height: auto;
     }
     .whywe .whywe_wrapper .whywe_left img {
@@ -1470,11 +1479,12 @@ video {
         transform: translate(42px, -70px);
     }
     .eco .eco_wrapper .eco_left img {
-        height: 30px;
-        transform: translateY(47%);
+        height: 28px;
+        width: 27px;
+        transform: translateY(28%);
     }
     .eco .eco_wrapper .eco_left::before {
-        left: 5%;
+        left: 0;
     }
     .pre5g {
         width: 300px;
