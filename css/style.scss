@@ -13,6 +13,7 @@
     background-image: url(../img/Pattern.svg);
     background-repeat: repeat-x;
     background-position-x: 50px;
+    background-position-y: -183px;
     overflow: hidden;
     // background-size: cover;
     .container {
@@ -1264,6 +1265,7 @@ video {
     .posability .posability_wrapper .posability_right img:first-child {
         width: 70%;
         transform: translate(0px, 60px);
+        max-height: 200px;
     }
     .posability_bottom {
         transform: translate(-44px, 70px);
@@ -1302,6 +1304,9 @@ video {
         width: 58px;
         left: 9%;
         bottom: -35px;
+    }
+    .eco .eco_wrapper .eco_right img {
+        max-height: 177px;
     }
     .office .office_wrapper .top {
         margin-top: 10px;
