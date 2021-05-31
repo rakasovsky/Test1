@@ -300,8 +300,8 @@
             justify-content: flex-end;
             width: 50%;
             img {
-                transform: translate(45px, 135px);
-                z-index: -1;
+                transform: translate(47px, 135px);
+                z-index: -3;
             }
         }
     }
@@ -467,6 +467,7 @@
             .center {
                 position: relative;
                 transform: translateX(-30px);
+                z-index: 1;
                 img:first-child {
                     position: absolute;
                     right: 43%;
@@ -490,13 +491,13 @@
             .container {
                 .number {
                     position: absolute;
-                    bottom: -10px;
                     left: 28%;
                 }
                 img:nth-child(2){
                     position: absolute;
                     right: 4%;
                     bottom: -10%;
+                    z-index: 2;
                 }
                 .number:after {
                     content: url(../img/office/5_1.png);
@@ -517,6 +518,7 @@
 
 .wecan{
     position: relative;
+    margin-top: -120px;
     .we_cush{
         position: absolute;
         bottom: 120px;
@@ -605,7 +607,7 @@ video {
                 }
             }
             .style_center:before {
-                right: -40px;
+                right: -75px;
             }
         }
     } 
@@ -617,7 +619,7 @@ video {
         transform: translate(-15%, 47%);
     }
     .whywe .whywe_wrapper .whywe_right img {
-        transform: translate(45px, 530px);
+        transform: translate(45px, 345px);
         height: 134px;
         width: 90%;
         z-index: -2;
@@ -639,6 +641,10 @@ video {
     }
     .office {
         transform: translateY(0); 
+    }
+    .posability_bottom .icons_wrapper img {
+        width: 75px;
+        height: 75px; 
     }
     .eco .eco_wrapper .eco_left{
         img{
@@ -667,7 +673,7 @@ video {
     }
 
     .wecan_wrapper {
-        margin-top: 290px;
+        margin-top: 375px;
     }
     .wecan .we_cush {
         height: 102%;
@@ -681,6 +687,9 @@ video {
         position: absolute;
         left: 60%;
         bottom: 0%;
+    }
+    .wecan .wecan_wrapper .we_rect {
+        z-index: 1;
     }
 }   
 
@@ -909,7 +918,7 @@ video {
         margin-bottom: -50px;
     }
     .wecan_wrapper {
-        margin-top: 240px;
+        margin-top:360px;
     }
     .wecan .wecan_wrapper .wecan_center img {
         position: relative;
@@ -1084,7 +1093,8 @@ video {
         top: -125px;
     }
     .whywe .whywe_wrapper .whywe_right img {
-        transform: translate(20px, 130px);
+        transform: translate(14px, 95px);
+        height: 36px;
     }
     .whywe .whywe_wrapper .whywe_center:after {
         left: 53%;
@@ -1160,7 +1170,7 @@ video {
         bottom: -35px;
     }
     .office .office_wrapper .top .center img:nth-child(2) {
-        transform: translate(16%, 65%);
+        transform: translate(9%, 65%);
         width: 300px;
     }
     .office .office_wrapper .top {
@@ -1199,12 +1209,15 @@ video {
     .wecan .we_cush {
         height: 470px;
     }
+    .wecan {
+        margin-top: 0;
+     }
 }
 @media (max-width: 414px) {
     .main-unitcity .container{
         width: 345px;
     }
-    
+   
   
 }
 @media (max-width: 375px) {
@@ -1409,6 +1422,9 @@ video {
         line-height: 19px;
       
     }
+    .variants .variants_wrapper .variants_right img:last-child {
+        width: 70%;
+      }
     .variants .variants_wrapper .variants_right .mac2 {
         transform: translate(-88px, 7px) !important;
     }
