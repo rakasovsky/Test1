@@ -545,6 +545,12 @@
   z-index: 22;
 }
 
+.eco .eco_wrapper .eco_left img {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+  width: 464px;
+}
+
 .eco .eco_wrapper .eco_left::before {
   content: url("../img/ecosystem/4.png");
   position: absolute;
