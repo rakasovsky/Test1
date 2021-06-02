@@ -545,11 +545,6 @@
   z-index: 22;
 }
 
-.eco .eco_wrapper .eco_left img {
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-}
-
 .eco .eco_wrapper .eco_left::before {
   content: url("../img/ecosystem/4.png");
   position: absolute;
@@ -990,7 +985,7 @@ video {
     width: 100%;
   }
   .eco .eco_wrapper .eco_left img {
-    width: 84px;
+    width: 100px;
     height: 61px;
     -webkit-transform: translateY(163%);
             transform: translateY(163%);
@@ -1172,6 +1167,9 @@ video {
   .hero_icon {
     width: 64px;
   }
+  .hero_links .hero_icon {
+    width: 40px;
+  }
   .project h3 {
     font-size: 20px;
   }
@@ -1327,7 +1325,7 @@ video {
             transform: translate(20px, -70px);
   }
   .eco .eco_wrapper .eco_left img {
-    width: 71px;
+    width: 86px;
     height: 27px;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -1346,6 +1344,9 @@ video {
     width: 58px;
     left: 5%;
     bottom: -35px;
+  }
+  .eco .eco_wrapper .eco_center img:last-child {
+    width: 315px;
   }
   .office .office_wrapper .top .center img:nth-child(2) {
     -webkit-transform: translate(9%, 65%);
@@ -1665,6 +1666,8 @@ video {
   .posability .posability_wrapper .posability_center img:nth-child(3) {
     width: 320px;
     height: auto;
+    -webkit-transform: translate(-39px, 55px);
+            transform: translate(-39px, 55px);
   }
   .posability_bottom .icons_wrapper img {
     margin-right: 0px;
@@ -1701,7 +1704,7 @@ video {
   }
   .eco .eco_wrapper .eco_left img {
     height: 28px;
-    width: 27px;
+    width: 50px;
     -webkit-transform: translateY(28%);
             transform: translateY(28%);
   }
